@@ -1,0 +1,6 @@
+[2026-02-26T02:02:51] INVALID LINE: "Not Available" -InsufficientArgumentsException: Expected at least 2 arguments
+[2026-02-26T02:03:41] INVALID LINE: "Java" -InvalidFileNameException: File does not end with .txt
+[2026-02-26T02:06:02] INVALID LINE: "1234567891234" -DuplicateISBNException: Duplicated book found with 1234567891234
+[2026-02-26T02:07:00] INVALID LINE: ":marvel:1234567891234:seven" -MalformedBookEntryException: Title is empty
+[2026-02-26T02:07:40] INVALID LINE: "superman::1234567891234:5" -MalformedBookEntryException: Author is empty
+[2026-02-26T02:08:02] INVALID LINE: ":Josh:9781484720363:4" -MalformedBookEntryException: Title is empty
